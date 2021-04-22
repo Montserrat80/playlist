@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box; /* padding und border nach innen verlegen (hi ha browsers que sino no funcionarien el paddings i margins*/
+}
+img {
+    max-width: 100%; /*pq la imatge no sigui mai mes gran que l element pare, pero si que pot ser mes petita*/
+    height: auto;
+}
+html, body {
+    font: 1rem Helvetica,Verdana, sans-serif;
+} 
+main{
+    display:block; /* cal posar-ho pq sino el iE11 no reconeix el main com a block !!!*/
+	background-color: #333;
+	border-left:5px solid;
+    border-right:5px solid;
+}
+footer{
+	background-color: #333;
+	color: #ddd;
+    padding:30px 0;
+    text-align: center;
+}
+article{
+    margin-top: 2rem;
+}
+header{
+    width:100%;
+    border-bottom: 5px solid;
+    border-left:5px solid;
+    border-right:5px solid;
+}
+#note{
+    font-size: 1.3rem;
+    color: rgb(247, 100, 41);
+    margin-left: 3rem;
+}
+#imgheader img {
+    display: block; /* img es inline element, volem que es comporti com a block */
+    width:100%;
+    border: 15px solid black;
+    border-bottom: 25px solid  rgb(233, 181, 39) ;
+}
+
+h1{
+    background: rgb(233, 181, 39);
+    text-align: center;
+    padding-bottom: 15px;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+nav{
+    padding:25px;
+    border-bottom: 5px solid;
+    text-align: center;
+}
+nav button{
+    width: 180px;
+    line-height: 40px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color:rgb(117, 36, 4);
+    background: rgb(233, 181, 39);
+    margin-left: 1rem;
+    border:1px solide black;
+}
+nav button:hover{
+    color:rgb(233, 181, 39);
+    background:rgb(117, 36, 4);
+}
+ul{
+    list-style: none;
+}
+a{
+    color:red;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+#albumsContainer{
+    padding-left:3.5rem;
+}
+#eins {background: linear-gradient(rgb(193, 193, 212), rgb(44, 44, 107));}  
+#zwei {background: linear-gradient(to top,rgb(167, 144, 144), rgb(216, 71, 71));}  
+#drei {background: linear-gradient(27deg,rgb(223, 223, 162), rgb(126, 126, 2));}  
+#vier{background: linear-gradient(rgb(88, 138, 111) 50%, rgb(3, 58, 28));} 
+
+#previous,
+#next{
+    margin:83px 10px 0 10px;
+    width: 80px;
+    line-height: 40px;
+    font-size: 1.3rem;
+    background: rgb(233, 181, 39);
+    color:rgb(117, 36, 4)
+}
+#containerAll{
+    display: flex;
+    justify-content: space-between;
+	padding: 0 12px;
+}
+#playlistContainer{
+    flex-basis: 29%;
+    background: black;
+    color:#ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#songsContainer{
+    flex-basis: 69%;
+    background: rgb(233, 181, 39);
+}
+#songsContainer div{
+    padding: 1rem 0;
+}
+#songsContainer p{
+    padding: 1rem 2rem;
+}
+.coverAlbum {
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+    margin: 10px;
+    padding: 15px 0;
+    font-size: 1.7rem;
+    text-align: center;
+}
+.imgCD{
+    width: 20%;
+    margin: 15px;
+    border: 1px solid rgb(39, 37, 37);
+}
+.fltleft{
+    float: left;
+}
+.clearfix:after{
+    content:""; 
+    display:block; 
+    clear:both;
+}
+.wrapper{
+    max-width: 1200px;
+    margin: auto;
+}
+.selected {opacity:.5; color:#555}
+.textKlein {
+    font-size: 0.7rem;
+    text-align: right;
+    padding-right: 5px;
+    /*color:#ddd;*/
+}
+.albumName{
+    height: 90px;
+}
+.artistName{
+    height: 60px;
+}
+.albumNameInList,
+.header{
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding-right: 15px;
+    color:rgb(117, 36, 4);
+}
+.artistNameInList{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.line:after{
+    content:"";
+    display: block;
+    width:100%;
+    border-bottom:1px solid;
+    margin-top:1rem;
+}
+.strips{
+    background: rgb(252, 201, 63);
+}
+.namePlaylist{
+    margin-top:55px;
+}
+.namePlaylist2{
+    padding-top:2rem;
+    color:rergb(117, 36, 4);
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.addDelPlaylist{
+    width: 25px;
+    line-height: 15px;
+    padding: 2px;
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: bold;
+    border:1px solide black;
+    margin-left:15px;
+}
+.addDelPlaylist:hover{
+    background:black;
+    color:grey;
+}
+.active{
+    border: 7px solid rgb(252, 201, 63);
+}
+
+.delSongFromPlaylist{
+    width: 25px;
+    line-height: 15px;
+    padding: 2px;
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: bold;
+    border:1px solide black;
+    margin-left:15px;
+
+    color:rgb(117, 36, 4);
+    background: rgb(233, 181, 39);
+    
+}
+.delSongFromPlaylist:hover{
+    color:rgb(233, 181, 39);
+    background:rgb(117, 36, 4);
+}
+#today{
+    font-weight: bold;
+    padding-left: 3rem;
+}
+.disabled{
+    pointer-events:none;  /* This makes it not clickable*/
+  }

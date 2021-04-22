@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="css/default.css" rel="stylesheet">
+    <title>Document</title>
+    <script src="libs/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+    <header>
+        <figure id="imgheader" >
+                <img  src="img/header.jpg" alt="Wald">
+        </figure>
+        <h1>PLAYLIST</h1>
+    </header>
+    <main>
+        <nav>
+            <button id="newPlaylist">New Playlist</button>
+            <button id="albums">Albums</button>
+            <span id="today"></span>
+        </nav>
+        <article id="albumsContainer" class="clearfix">
+            <input type="button" id="previous" class="fltleft" value="<<">
+               
+            <div id="eins" class="coverAlbum fltleft"></div>
+            <div id="zwei" class="coverAlbum fltleft"></div>
+            <div id="drei" class="coverAlbum fltleft"></div>
+            <div id="vier"class="coverAlbum fltleft"></div>
+
+            <input type="button" id="next" class="fltleft" value=">>">  
+        </article> 
+        <article><div id="note"></div></article>
+        <article id="containerAll">
+            <article id="playlistContainer">
+                <div></div>
+            </article>
+            <article id="songsContainer">
+                <div></div>
+        </article>
+    </main>
+    <footer><p>&copy; copyright 2021 Montserrat Vivet GmbH</p></footer>
+</div>
+<script src="libs/dom_helper.js"></script>  
+<script src="js/default.js"></script>  
+</body>
+</html>

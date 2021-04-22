@@ -1,0 +1,324 @@
+{
+  "albums": [
+    {
+	  "name": "Golden Moments",
+      "artist": "Jill Scott",
+	  "year": 2015,
+      "songs": [
+        {
+          "title": "Golden",
+          "long": "3:47"
+        },
+        {
+          "title": "Cross My Mind",
+          "long": "4:43"
+        },
+        {
+          "title": "Come to the Light",
+          "long": "2:45"
+        },
+        {
+          "title": "A Long Walk",
+          "long": "3:27"
+        },
+		{
+          "title": "Slowly Surely",
+          "long": "3:21"
+        }
+      ]
+    },
+	{
+	  "name": "Sur la route",
+      "artist": "Zaz",
+	  "year": 2016,
+      "songs": [
+        {
+          "title": "Le long de la route",
+          "long": "3:47"
+        },
+        {
+          "title": "Si je perds",
+          "long": "3:43"
+        },
+        {
+          "title": "Eblouie per la nuit",
+          "long": "3:25"
+        }
+      ]
+    },
+	{
+	  "name": "Muchas flores",
+      "artist": "Rosario",
+	  "year": 2001,
+      "songs": [
+        {
+          "title": "Agua y sal",
+          "long": "3:32"
+        },
+        {
+          "title": "Al Son Del Tambor",
+          "long": "3:43"
+        },
+        {
+          "title": "Cómo quieres que te quiera",
+          "long": "4:25"
+        },
+		{
+          "title": "Tuyo siempre",
+          "long": "2:51"
+        }
+      ]
+    },
+	{
+	  "name": "What Kind a Music",
+      "artist": "Tom Misch",
+	  "year": 2020,
+      "songs": [
+        {
+          "title": "What Kind a Music",
+          "long": "3:32"
+        },
+        {
+          "title": "Tidal Wave",
+          "long": "3:23"
+        },
+        {
+          "title": "I Did it For You",
+          "long": "3:25"
+        },
+		{
+          "title": "Storm Before The Calm",
+          "long": "4:11"
+        },
+		{
+          "title": "Sensational",
+          "long": "3:53"
+        }
+      ]
+    },
+	{
+	  "name": "24K Magic",
+      "artist": "Bruno Mars",
+	  "year": 2018,
+      "songs": [
+        {
+          "title": "Just the way you are",
+          "long": "3:32"
+        },
+        {
+          "title": "Count on Me",
+          "long": "3:23"
+        },
+        {
+          "title": "Magic",
+          "long": "3:25"
+        },
+		{
+          "title": "That´s what I like",
+          "long": "4:11"
+        },
+		{
+          "title": "Talking to the Moon",
+          "long": "3:53"
+        }
+      ]
+    },
+	{
+	  "name": "Aversions",
+      "artist": "Mamas Gun",
+	  "year": 2020,
+      "songs": [
+        {
+          "title": "I Need a Dollar",
+          "long": "3:42"
+        },
+        {
+          "title": "Rolling in the Deep",
+          "long": "3:23"
+        },
+        {
+          "title": "Umbrella",
+          "long": "3:25"
+        },
+		{
+          "title": "Video Games",
+          "long": "3:34"
+        }
+      ]
+    },
+{
+	  "name": "All Rise",
+      "artist": "Gregory Porter",
+	  "year": 2019,
+      "songs": [
+        {
+          "title": "Revival",
+          "long": "3:12"
+        },
+        {
+          "title": "Hey Laura",
+          "long": "3:23"
+        },
+        {
+          "title": "Everything You Touch is Gold",
+          "long": "3:25"
+        },
+		{
+          "title": "Liquid Spirit",
+          "long": "3:54"
+        },
+		{
+          "title": "L-O-V-E",
+          "long": "3:14"
+        }
+      ]
+    },
+	{
+	  "name": "Momentum",
+      "artist": "Jamie Cullum",
+	  "year": 2013,
+      "songs": [
+        {
+          "title": "The Same Things",
+          "long": "3:12"
+        },
+        {
+          "title": "Anyway",
+          "long": "3:23"
+        },
+        {
+          "title": "Pure Imagination",
+          "long": "3:25"
+        },
+		{
+          "title": "Save your Soul",
+          "long": "3:54"
+        },
+		{
+          "title": "You´re Not The Only One",
+          "long": "3:14"
+        }
+      ]
+    },
+	{
+	  "name": "It´s Time",
+      "artist": "Michael Bublé",
+	  "year": 2005,
+      "songs": [
+        {
+          "title": "Feeling Good",
+          "long": "3:12"
+        },
+        {
+          "title": "The More I See You",
+          "long": "3:23"
+        },
+        {
+          "title": "Save the Last Dance for Me",
+          "long": "3:25"
+        },
+		{
+          "title": "How Sweet It is",
+          "long": "3:54"
+        },
+		{
+          "title": "You Don´t Know Me",
+          "long": "3:14"
+        }
+      ]
+    },
+	{
+	  "name": "Man About Town",
+      "artist": "Mayer Hawthorne",
+	  "year": 2005,
+      "songs": [
+        {
+          "title": "Cosmic Love",
+          "long": "3:12"
+        },
+        {
+          "title": "Book of Broken Hearts",
+          "long": "3:23"
+        },
+        {
+          "title": "Love Like That",
+          "long": "3:25"
+        },
+		{
+          "title": "Get Your Back",
+          "long": "3:54"
+        },
+		{
+          "title": "Breakfast in Bed",
+          "long": "3:14"
+        }
+      ]
+    },
+	{
+	  "name": "Album 25",
+      "artist": "Adele",
+	  "year": 2015,
+      "songs": [
+        {
+          "title": "When We Were Young",
+          "long": "3:12"
+        },
+        {
+          "title": "Hello",
+          "long": "3:23"
+        },
+        {
+          "title": "Love in The Dark",
+          "long": "3:25"
+        },
+		{
+          "title": "Million Years Ago",
+          "long": "3:54"
+        }
+      ]
+    },
+	{
+	  "name": "The Lion King",
+      "artist": "Beyoncé",
+	  "year": 2020,
+      "songs": [
+        {
+          "title": "Find Your Way Back",
+          "long": "3:12"
+        },
+        {
+          "title": "Mood 4 Eva",
+          "long": "3:23"
+        },
+        {
+          "title": "Brown Skin Girl",
+          "long": "3:25"
+        },
+		{
+          "title": "My Power",
+          "long": "3:54"
+        }
+      ]
+    },
+	{
+	  "name": "My Dream",
+      "artist": "Cris Cap",
+	  "year": 2020,
+      "songs": [
+        {
+          "title": "Brighter Day",
+          "long": "3:12"
+        },
+        {
+          "title": "I Cannot Forgive You",
+          "long": "3:23"
+        },
+        {
+          "title": "The Second One is the Best",
+          "long": "3:25"
+        }
+      ]
+    }
+  ]
+}
+
