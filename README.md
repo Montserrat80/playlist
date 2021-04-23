@@ -4,7 +4,7 @@
 Die Alben und ihre jeweiligen Titel sind in einer JSON-Datei gespeichert. Der Benutzer kann mehrere Playlists erstellen und Songs aus den Alben hinzufügen. 
 Die Playlists werden ebenfalls in einer JSON-Datei gespeichert.
 
-* AJAX + JSON
+* Javascript + AJAX + JSON
 
 ![playlist1](https://user-images.githubusercontent.com/81353824/115753843-ead4b900-a39b-11eb-8851-ea9ed54ce399.png)
 
