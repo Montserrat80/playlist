@@ -1,7 +1,7 @@
 
 # playlist
 
-## Die Alben und ihre jeweiligen Titel sind in einer JSON-Datei gespeichert. Der Benutzer kann mehrere Playlists erstellen und Songs aus den Alben hinzufügen. 
+Die Alben und ihre jeweiligen Titel sind in einer JSON-Datei gespeichert. Der Benutzer kann mehrere Playlists erstellen und Songs aus den Alben hinzufügen. 
 Die Playlists werden ebenfalls in einer JSON-Datei gespeichert.
 
 * AJAX + JSON
